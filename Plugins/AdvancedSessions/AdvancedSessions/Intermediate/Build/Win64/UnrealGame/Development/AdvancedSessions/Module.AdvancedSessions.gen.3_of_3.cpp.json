@@ -1,14 +1,14 @@
 {
-    "Version": "1.2",
+    "Version": "1.1",
     "Data": {
-        "Source": "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\development\\advancedsessions\\module.advancedsessions.gen.3_of_3.cpp",
+        "Source": "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\development\\advancedsessions\\module.advancedsessions.gen.3_of_3.cpp",
         "ProvidedModule": "",
-        "PCH": "d:\\git\\phase4\\intermediate\\build\\win64\\phasefour\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\intermediate\\build\\win64\\vrexppluginexample\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\development\\advancedsessions\\definitions.advancedsessions.h",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\startsessioncallbackproxyadvanced.gen.cpp",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\source\\advancedsessions\\classes\\startsessioncallbackproxyadvanced.h",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\source\\advancedsessions\\classes\\blueprintdatadefinitions.h",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\development\\advancedsessions\\definitions.advancedsessions.h",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\startsessioncallbackproxyadvanced.gen.cpp",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\source\\advancedsessions\\classes\\startsessioncallbackproxyadvanced.h",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\source\\advancedsessions\\classes\\blueprintdatadefinitions.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\playerstate.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\plugins\\online\\onlinesubsystem\\source\\public\\interfaces\\onlinesessioninterface.h",
@@ -166,11 +166,11 @@
             "c:\\program files\\epic games\\ue_5.0\\engine\\plugins\\online\\onlinesubsystemutils\\intermediate\\build\\win64\\unrealgame\\inc\\onlinesubsystemutils\\testbeaconhost.generated.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\plugins\\online\\onlinesubsystemutils\\source\\onlinesubsystemutils\\classes\\turnbasedblueprintlibrary.h",
             "c:\\program files\\epic games\\ue_5.0\\engine\\plugins\\online\\onlinesubsystemutils\\intermediate\\build\\win64\\unrealgame\\inc\\onlinesubsystemutils\\turnbasedblueprintlibrary.generated.h",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\blueprintdatadefinitions.generated.h",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\startsessioncallbackproxyadvanced.generated.h",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\updatesessioncallbackproxyadvanced.gen.cpp",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\source\\advancedsessions\\classes\\updatesessioncallbackproxyadvanced.h",
-            "d:\\git\\phase4\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\updatesessioncallbackproxyadvanced.generated.h"
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\blueprintdatadefinitions.generated.h",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\startsessioncallbackproxyadvanced.generated.h",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\updatesessioncallbackproxyadvanced.gen.cpp",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\source\\advancedsessions\\classes\\updatesessioncallbackproxyadvanced.h",
+            "c:\\users\\morde\\documents\\unreal projects\\pluginexpproject\\plugins\\advancedsessions\\advancedsessions\\intermediate\\build\\win64\\unrealgame\\inc\\advancedsessions\\updatesessioncallbackproxyadvanced.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
