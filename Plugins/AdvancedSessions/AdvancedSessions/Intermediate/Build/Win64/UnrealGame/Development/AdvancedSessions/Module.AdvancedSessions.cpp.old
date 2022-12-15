@@ -19,5 +19,4 @@
 #include "C:/Users/morde/Documents/Unreal Projects/PluginExpProject/Plugins/AdvancedSessions/AdvancedSessions/Source/AdvancedSessions/Private/LoginUserCallbackProxy.cpp"
 #include "C:/Users/morde/Documents/Unreal Projects/PluginExpProject/Plugins/AdvancedSessions/AdvancedSessions/Source/AdvancedSessions/Private/LogoutUserCallbackProxy.cpp"
 #include "C:/Users/morde/Documents/Unreal Projects/PluginExpProject/Plugins/AdvancedSessions/AdvancedSessions/Source/AdvancedSessions/Private/SendFriendInviteCallbackProxy.cpp"
-#include "C:/Users/morde/Documents/Unreal Projects/PluginExpProject/Plugins/AdvancedSessions/AdvancedSessions/Source/AdvancedSessions/Private/StartSessionCallbackProxyAdvanced.cpp"
 #include "C:/Users/morde/Documents/Unreal Projects/PluginExpProject/Plugins/AdvancedSessions/AdvancedSessions/Source/AdvancedSessions/Private/UpdateSessionCallbackProxyAdvanced.cpp"
