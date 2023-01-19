@@ -630,7 +630,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionsSearc
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionsSearchSetting()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("SessionsSearchSetting")),new UScriptStruct::TCppStructOps<FSessionsSearchSetting>);
+		UScriptStruct::DeferCppStructOps<FSessionsSearchSetting>(FName(TEXT("SessionsSearchSetting")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionsSearchSetting;
 	struct Z_Construct_UScriptStruct_FSessionsSearchSetting_Statics
@@ -701,7 +701,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionProper
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionPropertyKeyPair()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("SessionPropertyKeyPair")),new UScriptStruct::TCppStructOps<FSessionPropertyKeyPair>);
+		UScriptStruct::DeferCppStructOps<FSessionPropertyKeyPair>(FName(TEXT("SessionPropertyKeyPair")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFSessionPropertyKeyPair;
 	struct Z_Construct_UScriptStruct_FSessionPropertyKeyPair_Statics
@@ -772,7 +772,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPFriendInfo
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPFriendInfo()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("BPFriendInfo")),new UScriptStruct::TCppStructOps<FBPFriendInfo>);
+		UScriptStruct::DeferCppStructOps<FBPFriendInfo>(FName(TEXT("BPFriendInfo")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFBPFriendInfo;
 	struct Z_Construct_UScriptStruct_FBPFriendInfo_Statics
@@ -924,7 +924,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPFriendPrese
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPFriendPresenceInfo()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("BPFriendPresenceInfo")),new UScriptStruct::TCppStructOps<FBPFriendPresenceInfo>);
+		UScriptStruct::DeferCppStructOps<FBPFriendPresenceInfo>(FName(TEXT("BPFriendPresenceInfo")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFBPFriendPresenceInfo;
 	struct Z_Construct_UScriptStruct_FBPFriendPresenceInfo_Statics
@@ -1111,7 +1111,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPOnlineRecen
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPOnlineRecentPlayer()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("BPOnlineRecentPlayer")),new UScriptStruct::TCppStructOps<FBPOnlineRecentPlayer>);
+		UScriptStruct::DeferCppStructOps<FBPOnlineRecentPlayer>(FName(TEXT("BPOnlineRecentPlayer")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFBPOnlineRecentPlayer;
 	struct Z_Construct_UScriptStruct_FBPOnlineRecentPlayer_Statics
@@ -1195,7 +1195,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPOnlineUser
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPOnlineUser()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("BPOnlineUser")),new UScriptStruct::TCppStructOps<FBPOnlineUser>);
+		UScriptStruct::DeferCppStructOps<FBPOnlineUser>(FName(TEXT("BPOnlineUser")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFBPOnlineUser;
 	struct Z_Construct_UScriptStruct_FBPOnlineUser_Statics
@@ -1303,7 +1303,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUniqueNetId
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUniqueNetId()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("BPUniqueNetId")),new UScriptStruct::TCppStructOps<FBPUniqueNetId>);
+		UScriptStruct::DeferCppStructOps<FBPUniqueNetId>(FName(TEXT("BPUniqueNetId")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUniqueNetId;
 	struct Z_Construct_UScriptStruct_FBPUniqueNetId_Statics
@@ -1374,7 +1374,7 @@ static struct FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUserOnlineA
 {
 	FScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUserOnlineAccount()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("BPUserOnlineAccount")),new UScriptStruct::TCppStructOps<FBPUserOnlineAccount>);
+		UScriptStruct::DeferCppStructOps<FBPUserOnlineAccount>(FName(TEXT("BPUserOnlineAccount")));
 	}
 } ScriptStruct_AdvancedSessions_StaticRegisterNativesFBPUserOnlineAccount;
 	struct Z_Construct_UScriptStruct_FBPUserOnlineAccount_Statics
