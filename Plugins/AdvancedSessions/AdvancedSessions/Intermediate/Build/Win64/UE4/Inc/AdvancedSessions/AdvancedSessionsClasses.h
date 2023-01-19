@@ -16,6 +16,7 @@
 #include "AdvancedSessions/Classes/AdvancedIdentityLibrary.h"
 #include "AdvancedSessions/Classes/AdvancedSessionsLibrary.h"
 #include "AdvancedSessions/Classes/AdvancedVoiceLibrary.h"
+#include "AdvancedSessions/Classes/AutoLoginUserCallbackProxy.h"
 #include "AdvancedSessions/Classes/CancelFindSessionsCallbackProxy.h"
 #include "AdvancedSessions/Classes/CreateSessionCallbackProxyAdvanced.h"
 #include "AdvancedSessions/Classes/EndSessionCallbackProxy.h"

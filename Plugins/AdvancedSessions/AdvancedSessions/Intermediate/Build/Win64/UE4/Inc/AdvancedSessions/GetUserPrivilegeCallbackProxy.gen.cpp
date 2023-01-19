@@ -238,7 +238,7 @@ void EmptyLinkFunctionForGeneratedCodeGetUserPrivilegeCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGetUserPrivilegeCallbackProxy, 1959037680);
+	IMPLEMENT_CLASS(UGetUserPrivilegeCallbackProxy, 2416102721);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UGetUserPrivilegeCallbackProxy>()
 	{
 		return UGetUserPrivilegeCallbackProxy::StaticClass();

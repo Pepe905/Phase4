@@ -45,10 +45,11 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 		P_GET_UBOOL(Z_Param_bEmptyServersOnly);
 		P_GET_UBOOL(Z_Param_bNonEmptyServersOnly);
 		P_GET_UBOOL(Z_Param_bSecureServersOnly);
+		P_GET_UBOOL(Z_Param_bSearchLobbies);
 		P_GET_PROPERTY(FIntProperty,Z_Param_MinSlotsAvailable);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(UFindSessionsCallbackProxyAdvanced**)Z_Param__Result=UFindSessionsCallbackProxyAdvanced::FindSessionsAdvanced(Z_Param_WorldContextObject,Z_Param_PlayerController,Z_Param_MaxResults,Z_Param_bUseLAN,EBPServerPresenceSearchType(Z_Param_ServerTypeToSearch),Z_Param_Out_Filters,Z_Param_bEmptyServersOnly,Z_Param_bNonEmptyServersOnly,Z_Param_bSecureServersOnly,Z_Param_MinSlotsAvailable);
+		*(UFindSessionsCallbackProxyAdvanced**)Z_Param__Result=UFindSessionsCallbackProxyAdvanced::FindSessionsAdvanced(Z_Param_WorldContextObject,Z_Param_PlayerController,Z_Param_MaxResults,Z_Param_bUseLAN,EBPServerPresenceSearchType(Z_Param_ServerTypeToSearch),Z_Param_Out_Filters,Z_Param_bEmptyServersOnly,Z_Param_bNonEmptyServersOnly,Z_Param_bSecureServersOnly,Z_Param_bSearchLobbies,Z_Param_MinSlotsAvailable);
 		P_NATIVE_END;
 	}
 	void UFindSessionsCallbackProxyAdvanced::StaticRegisterNativesUFindSessionsCallbackProxyAdvanced()
@@ -141,6 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 			bool bEmptyServersOnly;
 			bool bNonEmptyServersOnly;
 			bool bSecureServersOnly;
+			bool bSearchLobbies;
 			int32 MinSlotsAvailable;
 			UFindSessionsCallbackProxyAdvanced* ReturnValue;
 		};
@@ -162,6 +164,8 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bNonEmptyServersOnly;
 		static void NewProp_bSecureServersOnly_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bSecureServersOnly;
+		static void NewProp_bSearchLobbies_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bSearchLobbies;
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_MinSlotsAvailable;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -202,6 +206,11 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 		((FindSessionsCallbackProxyAdvanced_eventFindSessionsAdvanced_Parms*)Obj)->bSecureServersOnly = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSecureServersOnly = { "bSecureServersOnly", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FindSessionsCallbackProxyAdvanced_eventFindSessionsAdvanced_Parms), &Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSecureServersOnly_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSearchLobbies_SetBit(void* Obj)
+	{
+		((FindSessionsCallbackProxyAdvanced_eventFindSessionsAdvanced_Parms*)Obj)->bSearchLobbies = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSearchLobbies = { "bSearchLobbies", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FindSessionsCallbackProxyAdvanced_eventFindSessionsAdvanced_Parms), &Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSearchLobbies_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_MinSlotsAvailable = { "MinSlotsAvailable", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FindSessionsCallbackProxyAdvanced_eventFindSessionsAdvanced_Parms, MinSlotsAvailable), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FindSessionsCallbackProxyAdvanced_eventFindSessionsAdvanced_Parms, ReturnValue), Z_Construct_UClass_UFindSessionsCallbackProxyAdvanced_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::PropPointers[] = {
@@ -216,6 +225,7 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bEmptyServersOnly,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bNonEmptyServersOnly,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSecureServersOnly,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_bSearchLobbies,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_MinSlotsAvailable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced_Statics::NewProp_ReturnValue,
 	};
@@ -227,6 +237,7 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 		{ "Comment", "// Searches for advertised sessions with the default online subsystem and includes an array of filters\n" },
 		{ "CPP_Default_bEmptyServersOnly", "false" },
 		{ "CPP_Default_bNonEmptyServersOnly", "false" },
+		{ "CPP_Default_bSearchLobbies", "true" },
 		{ "CPP_Default_bSecureServersOnly", "false" },
 		{ "CPP_Default_MinSlotsAvailable", "0" },
 		{ "ModuleRelativePath", "Classes/FindSessionsCallbackProxyAdvanced.h" },
@@ -273,7 +284,7 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UFindSessionsCallbackProxyAdvanced_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FilterSessionResults, "FilterSessionResults" }, // 636344802
-		{ &Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced, "FindSessionsAdvanced" }, // 2061466504
+		{ &Z_Construct_UFunction_UFindSessionsCallbackProxyAdvanced_FindSessionsAdvanced, "FindSessionsAdvanced" }, // 858120893
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UFindSessionsCallbackProxyAdvanced_Statics::Class_MetaDataParams[] = {
@@ -328,7 +339,7 @@ void EmptyLinkFunctionForGeneratedCodeFindSessionsCallbackProxyAdvanced() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UFindSessionsCallbackProxyAdvanced, 3356762052);
+	IMPLEMENT_CLASS(UFindSessionsCallbackProxyAdvanced, 3022873452);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UFindSessionsCallbackProxyAdvanced>()
 	{
 		return UFindSessionsCallbackProxyAdvanced::StaticClass();
