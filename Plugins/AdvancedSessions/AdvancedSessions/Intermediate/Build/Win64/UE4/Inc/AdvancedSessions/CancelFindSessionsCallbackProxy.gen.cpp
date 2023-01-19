@@ -166,7 +166,7 @@ void EmptyLinkFunctionForGeneratedCodeCancelFindSessionsCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCancelFindSessionsCallbackProxy, 1484847254);
+	IMPLEMENT_CLASS(UCancelFindSessionsCallbackProxy, 2075011140);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UCancelFindSessionsCallbackProxy>()
 	{
 		return UCancelFindSessionsCallbackProxy::StaticClass();

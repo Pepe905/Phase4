@@ -27,9 +27,10 @@ void EmptyLinkFunctionForGeneratedCodeLoginUserCallbackProxy() {}
 		P_GET_OBJECT(APlayerController,Z_Param_PlayerController);
 		P_GET_PROPERTY(FStrProperty,Z_Param_UserID);
 		P_GET_PROPERTY(FStrProperty,Z_Param_UserToken);
+		P_GET_PROPERTY(FStrProperty,Z_Param_Type);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(ULoginUserCallbackProxy**)Z_Param__Result=ULoginUserCallbackProxy::LoginUser(Z_Param_WorldContextObject,Z_Param_PlayerController,Z_Param_UserID,Z_Param_UserToken);
+		*(ULoginUserCallbackProxy**)Z_Param__Result=ULoginUserCallbackProxy::LoginUser(Z_Param_WorldContextObject,Z_Param_PlayerController,Z_Param_UserID,Z_Param_UserToken,Z_Param_Type);
 		P_NATIVE_END;
 	}
 	void ULoginUserCallbackProxy::StaticRegisterNativesULoginUserCallbackProxy()
@@ -48,12 +49,14 @@ void EmptyLinkFunctionForGeneratedCodeLoginUserCallbackProxy() {}
 			APlayerController* PlayerController;
 			FString UserID;
 			FString UserToken;
+			FString Type;
 			ULoginUserCallbackProxy* ReturnValue;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WorldContextObject;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerController;
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_UserID;
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_UserToken;
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_Type;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -65,16 +68,19 @@ void EmptyLinkFunctionForGeneratedCodeLoginUserCallbackProxy() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_PlayerController = { "PlayerController", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LoginUserCallbackProxy_eventLoginUser_Parms, PlayerController), Z_Construct_UClass_APlayerController_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_UserID = { "UserID", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LoginUserCallbackProxy_eventLoginUser_Parms, UserID), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_UserToken = { "UserToken", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LoginUserCallbackProxy_eventLoginUser_Parms, UserToken), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010040000000080, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LoginUserCallbackProxy_eventLoginUser_Parms, Type), METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(LoginUserCallbackProxy_eventLoginUser_Parms, ReturnValue), Z_Construct_UClass_ULoginUserCallbackProxy_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_WorldContextObject,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_PlayerController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_UserID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_UserToken,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_Type,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser_Statics::Function_MetaDataParams[] = {
+		{ "AdvancedDisplay", "Type" },
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Online|AdvancedIdentity" },
 		{ "Comment", "// Logs into the identity interface\n" },
@@ -121,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeLoginUserCallbackProxy() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvancedSessions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ULoginUserCallbackProxy_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser, "LoginUser" }, // 952152064
+		{ &Z_Construct_UFunction_ULoginUserCallbackProxy_LoginUser, "LoginUser" }, // 3536507099
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ULoginUserCallbackProxy_Statics::Class_MetaDataParams[] = {
@@ -176,7 +182,7 @@ void EmptyLinkFunctionForGeneratedCodeLoginUserCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULoginUserCallbackProxy, 273410733);
+	IMPLEMENT_CLASS(ULoginUserCallbackProxy, 3916177547);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<ULoginUserCallbackProxy>()
 	{
 		return ULoginUserCallbackProxy::StaticClass();

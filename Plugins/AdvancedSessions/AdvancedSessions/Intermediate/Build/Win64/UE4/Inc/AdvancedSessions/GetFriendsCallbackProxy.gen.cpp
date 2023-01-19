@@ -210,7 +210,7 @@ void EmptyLinkFunctionForGeneratedCodeGetFriendsCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGetFriendsCallbackProxy, 2799164507);
+	IMPLEMENT_CLASS(UGetFriendsCallbackProxy, 1973235512);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UGetFriendsCallbackProxy>()
 	{
 		return UGetFriendsCallbackProxy::StaticClass();

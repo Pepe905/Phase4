@@ -96,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeAdvancedGameSession() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAdvancedGameSession, 1870491131);
+	IMPLEMENT_CLASS(AAdvancedGameSession, 1677911473);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<AAdvancedGameSession>()
 	{
 		return AAdvancedGameSession::StaticClass();

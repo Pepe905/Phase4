@@ -168,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeEndSessionCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UEndSessionCallbackProxy, 1446654549);
+	IMPLEMENT_CLASS(UEndSessionCallbackProxy, 2843866730);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UEndSessionCallbackProxy>()
 	{
 		return UEndSessionCallbackProxy::StaticClass();

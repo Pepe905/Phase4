@@ -33,14 +33,16 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		P_GET_UBOOL(Z_Param_bAllowInvites);
 		P_GET_UBOOL(Z_Param_bIsDedicatedServer);
 		P_GET_UBOOL(Z_Param_bUsePresence);
+		P_GET_UBOOL(Z_Param_bUseLobbiesIfAvailable);
 		P_GET_UBOOL(Z_Param_bAllowJoinViaPresence);
 		P_GET_UBOOL(Z_Param_bAllowJoinViaPresenceFriendsOnly);
 		P_GET_UBOOL(Z_Param_bAntiCheatProtected);
 		P_GET_UBOOL(Z_Param_bUsesStats);
 		P_GET_UBOOL(Z_Param_bShouldAdvertise);
+		P_GET_UBOOL(Z_Param_bUseLobbiesVoiceChatIfAvailable);
 		P_FINISH;
 		P_NATIVE_BEGIN;
-		*(UCreateSessionCallbackProxyAdvanced**)Z_Param__Result=UCreateSessionCallbackProxyAdvanced::CreateAdvancedSession(Z_Param_WorldContextObject,Z_Param_Out_ExtraSettings,Z_Param_PlayerController,Z_Param_PublicConnections,Z_Param_PrivateConnections,Z_Param_bUseLAN,Z_Param_bAllowInvites,Z_Param_bIsDedicatedServer,Z_Param_bUsePresence,Z_Param_bAllowJoinViaPresence,Z_Param_bAllowJoinViaPresenceFriendsOnly,Z_Param_bAntiCheatProtected,Z_Param_bUsesStats,Z_Param_bShouldAdvertise);
+		*(UCreateSessionCallbackProxyAdvanced**)Z_Param__Result=UCreateSessionCallbackProxyAdvanced::CreateAdvancedSession(Z_Param_WorldContextObject,Z_Param_Out_ExtraSettings,Z_Param_PlayerController,Z_Param_PublicConnections,Z_Param_PrivateConnections,Z_Param_bUseLAN,Z_Param_bAllowInvites,Z_Param_bIsDedicatedServer,Z_Param_bUsePresence,Z_Param_bUseLobbiesIfAvailable,Z_Param_bAllowJoinViaPresence,Z_Param_bAllowJoinViaPresenceFriendsOnly,Z_Param_bAntiCheatProtected,Z_Param_bUsesStats,Z_Param_bShouldAdvertise,Z_Param_bUseLobbiesVoiceChatIfAvailable);
 		P_NATIVE_END;
 	}
 	void UCreateSessionCallbackProxyAdvanced::StaticRegisterNativesUCreateSessionCallbackProxyAdvanced()
@@ -64,11 +66,13 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 			bool bAllowInvites;
 			bool bIsDedicatedServer;
 			bool bUsePresence;
+			bool bUseLobbiesIfAvailable;
 			bool bAllowJoinViaPresence;
 			bool bAllowJoinViaPresenceFriendsOnly;
 			bool bAntiCheatProtected;
 			bool bUsesStats;
 			bool bShouldAdvertise;
+			bool bUseLobbiesVoiceChatIfAvailable;
 			UCreateSessionCallbackProxyAdvanced* ReturnValue;
 		};
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WorldContextObject;
@@ -88,6 +92,8 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsDedicatedServer;
 		static void NewProp_bUsePresence_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUsePresence;
+		static void NewProp_bUseLobbiesIfAvailable_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUseLobbiesIfAvailable;
 		static void NewProp_bAllowJoinViaPresence_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bAllowJoinViaPresence;
 		static void NewProp_bAllowJoinViaPresenceFriendsOnly_SetBit(void* Obj);
@@ -98,6 +104,8 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUsesStats;
 		static void NewProp_bShouldAdvertise_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bShouldAdvertise;
+		static void NewProp_bUseLobbiesVoiceChatIfAvailable_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bUseLobbiesVoiceChatIfAvailable;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ReturnValue;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
@@ -136,6 +144,11 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		((CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms*)Obj)->bUsePresence = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUsePresence = { "bUsePresence", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms), &Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUsePresence_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesIfAvailable_SetBit(void* Obj)
+	{
+		((CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms*)Obj)->bUseLobbiesIfAvailable = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesIfAvailable = { "bUseLobbiesIfAvailable", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms), &Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesIfAvailable_SetBit, METADATA_PARAMS(nullptr, 0) };
 	void Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bAllowJoinViaPresence_SetBit(void* Obj)
 	{
 		((CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms*)Obj)->bAllowJoinViaPresence = 1;
@@ -161,6 +174,11 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		((CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms*)Obj)->bShouldAdvertise = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bShouldAdvertise = { "bShouldAdvertise", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms), &Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bShouldAdvertise_SetBit, METADATA_PARAMS(nullptr, 0) };
+	void Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesVoiceChatIfAvailable_SetBit(void* Obj)
+	{
+		((CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms*)Obj)->bUseLobbiesVoiceChatIfAvailable = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesVoiceChatIfAvailable = { "bUseLobbiesVoiceChatIfAvailable", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms), &Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesVoiceChatIfAvailable_SetBit, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(CreateSessionCallbackProxyAdvanced_eventCreateAdvancedSession_Parms, ReturnValue), Z_Construct_UClass_UCreateSessionCallbackProxyAdvanced_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_WorldContextObject,
@@ -173,11 +191,13 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bAllowInvites,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bIsDedicatedServer,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUsePresence,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesIfAvailable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bAllowJoinViaPresence,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bAllowJoinViaPresenceFriendsOnly,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bAntiCheatProtected,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUsesStats,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bShouldAdvertise,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_bUseLobbiesVoiceChatIfAvailable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession_Statics::NewProp_ReturnValue,
 	};
 #if WITH_METADATA
@@ -185,7 +205,7 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		{ "AutoCreateRefTerm", "ExtraSettings" },
 		{ "BlueprintInternalUseOnly", "true" },
 		{ "Category", "Online|AdvancedSessions" },
-		{ "Comment", "/**\n\x09 *    Creates a session with the default online subsystem with advanced optional inputs, for dedicated servers leave UsePresence as false and set IsDedicatedServer to true. Dedicated servers don't use presence.\n\x09 *    @param PublicConnections\x09When doing a 'listen' server, this must be >=2 (ListenServer itself counts as a connection)\n\x09 *    @param bUseLAN\x09\x09\x09When you want to play LAN, the level to play on must be loaded with option 'bIsLanMatch'\n\x09 *    @param bUsePresence\x09\x09Must be true for a 'listen' server (Map must be loaded with option 'listen'), false for a 'dedicated' server.\n\x09 *\x09  @param bShouldAdvertise\x09Set to true when the OnlineSubsystem should list your server when someone is searching for servers. Otherwise the server is hidden and only join via invite is possible.\n\x09 */" },
+		{ "Comment", "/**\n\x09 *    Creates a session with the default online subsystem with advanced optional inputs, for dedicated servers leave UsePresence as false and set IsDedicatedServer to true. Dedicated servers don't use presence.\n\x09 *    @param PublicConnections\x09When doing a 'listen' server, this must be >=2 (ListenServer itself counts as a connection)\n\x09 *    @param bUseLAN\x09\x09\x09When you want to play LAN, the level to play on must be loaded with option 'bIsLanMatch'\n\x09 *    @param bUsePresence\x09\x09Must be true for a 'listen' server (Map must be loaded with option 'listen'), false for a 'dedicated' server.\n\x09 *\x09  @param bUseLobbiesIfAvailable Used to flag the subsystem to use a lobby api instead of general hosting if the API supports it, generally true on steam for listen servers and false for dedicated\n\x09 *\x09  @param bShouldAdvertise\x09Set to true when the OnlineSubsystem should list your server when someone is searching for servers. Otherwise the server is hidden and only join via invite is possible.\n\x09 *\x09  @param bUseLobbiesVoiceChatIfAvailable Set to true to setup voice chat lobbies if the API supports it\n\x09 */" },
 		{ "CPP_Default_bAllowInvites", "true" },
 		{ "CPP_Default_bAllowJoinViaPresence", "true" },
 		{ "CPP_Default_bAllowJoinViaPresenceFriendsOnly", "false" },
@@ -193,13 +213,15 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		{ "CPP_Default_bIsDedicatedServer", "false" },
 		{ "CPP_Default_bShouldAdvertise", "true" },
 		{ "CPP_Default_bUseLAN", "false" },
+		{ "CPP_Default_bUseLobbiesIfAvailable", "true" },
+		{ "CPP_Default_bUseLobbiesVoiceChatIfAvailable", "false" },
 		{ "CPP_Default_bUsePresence", "true" },
 		{ "CPP_Default_bUsesStats", "false" },
 		{ "CPP_Default_PlayerController", "None" },
 		{ "CPP_Default_PrivateConnections", "0" },
 		{ "CPP_Default_PublicConnections", "100" },
 		{ "ModuleRelativePath", "Classes/CreateSessionCallbackProxyAdvanced.h" },
-		{ "ToolTip", "Creates a session with the default online subsystem with advanced optional inputs, for dedicated servers leave UsePresence as false and set IsDedicatedServer to true. Dedicated servers don't use presence.\n@param PublicConnections  When doing a 'listen' server, this must be >=2 (ListenServer itself counts as a connection)\n@param bUseLAN                    When you want to play LAN, the level to play on must be loaded with option 'bIsLanMatch'\n@param bUsePresence               Must be true for a 'listen' server (Map must be loaded with option 'listen'), false for a 'dedicated' server.\n    @param bShouldAdvertise       Set to true when the OnlineSubsystem should list your server when someone is searching for servers. Otherwise the server is hidden and only join via invite is possible." },
+		{ "ToolTip", "Creates a session with the default online subsystem with advanced optional inputs, for dedicated servers leave UsePresence as false and set IsDedicatedServer to true. Dedicated servers don't use presence.\n@param PublicConnections  When doing a 'listen' server, this must be >=2 (ListenServer itself counts as a connection)\n@param bUseLAN                    When you want to play LAN, the level to play on must be loaded with option 'bIsLanMatch'\n@param bUsePresence               Must be true for a 'listen' server (Map must be loaded with option 'listen'), false for a 'dedicated' server.\n    @param bUseLobbiesIfAvailable Used to flag the subsystem to use a lobby api instead of general hosting if the API supports it, generally true on steam for listen servers and false for dedicated\n    @param bShouldAdvertise       Set to true when the OnlineSubsystem should list your server when someone is searching for servers. Otherwise the server is hidden and only join via invite is possible.\n    @param bUseLobbiesVoiceChatIfAvailable Set to true to setup voice chat lobbies if the API supports it" },
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif
@@ -241,7 +263,7 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AdvancedSessions,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UCreateSessionCallbackProxyAdvanced_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession, "CreateAdvancedSession" }, // 593833644
+		{ &Z_Construct_UFunction_UCreateSessionCallbackProxyAdvanced_CreateAdvancedSession, "CreateAdvancedSession" }, // 1948430212
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCreateSessionCallbackProxyAdvanced_Statics::Class_MetaDataParams[] = {
@@ -296,7 +318,7 @@ void EmptyLinkFunctionForGeneratedCodeCreateSessionCallbackProxyAdvanced() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UCreateSessionCallbackProxyAdvanced, 1323794915);
+	IMPLEMENT_CLASS(UCreateSessionCallbackProxyAdvanced, 1943282359);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UCreateSessionCallbackProxyAdvanced>()
 	{
 		return UCreateSessionCallbackProxyAdvanced::StaticClass();

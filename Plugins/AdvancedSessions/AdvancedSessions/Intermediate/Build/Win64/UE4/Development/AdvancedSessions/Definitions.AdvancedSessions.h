@@ -34,14 +34,14 @@
 #define WITH_PUSH_MODEL 0
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
-#define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_4.27\\Engine"
-#define UE_LIVE_CODING_PROJECT "C:\\Users\\morde\\Documents\\Unreal Projects\\PluginExpProject\\VRExpPluginExample.uproject"
+#define UE_LIVE_CODING_ENGINE_DIR "C:\\UE4\\UE_4.27\\Engine"
+#define UE_LIVE_CODING_PROJECT "D:\\Documents\\Unreal Projects\\VRExpPluginExp\\VRExpPluginExample.uproject"
 #define UBT_MODULE_MANIFEST "UE4.modules"
 #define UBT_MODULE_MANIFEST_DEBUGGAME "UE4-Win64-DebugGame.modules"
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UE4"
-#define UE_ENGINE_DIRECTORY "../../../../../../../Program Files/Epic Games/UE_4.27/Engine/"
+#define UE_ENGINE_DIRECTORY "C:/UE4/UE_4.27/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601

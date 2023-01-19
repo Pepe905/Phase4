@@ -1,6 +1,6 @@
-"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.gen.1_of_2.cpp"
+"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.gen.1_of_2.cpp"
 /I .
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
@@ -241,9 +241,9 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController
 /I Developer\AnimationDataController\Public
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedSessions"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Inc\AdvancedSessions"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -257,15 +257,15 @@
 /I ThirdParty\PhysX3\PhysX_3.4\Include\geometry
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/FI"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Yu"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.gen.1_of_2.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Yu"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExampleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Module.AdvancedSessions.gen.1_of_2.cpp.obj"
 /Zc:inline
 /nologo
 /Oi

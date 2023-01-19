@@ -245,7 +245,7 @@ void EmptyLinkFunctionForGeneratedCodeUpdateSessionCallbackProxyAdvanced() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUpdateSessionCallbackProxyAdvanced, 2793462679);
+	IMPLEMENT_CLASS(UUpdateSessionCallbackProxyAdvanced, 3832686486);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UUpdateSessionCallbackProxyAdvanced>()
 	{
 		return UUpdateSessionCallbackProxyAdvanced::StaticClass();

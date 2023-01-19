@@ -166,7 +166,7 @@ void EmptyLinkFunctionForGeneratedCodeLogoutUserCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ULogoutUserCallbackProxy, 2908079883);
+	IMPLEMENT_CLASS(ULogoutUserCallbackProxy, 3880079206);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<ULogoutUserCallbackProxy>()
 	{
 		return ULogoutUserCallbackProxy::StaticClass();

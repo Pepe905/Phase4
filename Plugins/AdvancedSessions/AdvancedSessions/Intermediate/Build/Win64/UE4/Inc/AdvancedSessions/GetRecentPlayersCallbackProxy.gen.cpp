@@ -218,7 +218,7 @@ void EmptyLinkFunctionForGeneratedCodeGetRecentPlayersCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGetRecentPlayersCallbackProxy, 1396503292);
+	IMPLEMENT_CLASS(UGetRecentPlayersCallbackProxy, 3955720502);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UGetRecentPlayersCallbackProxy>()
 	{
 		return UGetRecentPlayersCallbackProxy::StaticClass();
