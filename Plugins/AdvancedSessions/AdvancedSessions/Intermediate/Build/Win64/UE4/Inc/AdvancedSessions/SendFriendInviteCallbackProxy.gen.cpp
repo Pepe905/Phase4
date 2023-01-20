@@ -202,7 +202,7 @@ void EmptyLinkFunctionForGeneratedCodeSendFriendInviteCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USendFriendInviteCallbackProxy, 1549969020);
+	IMPLEMENT_CLASS(USendFriendInviteCallbackProxy, 1699271932);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<USendFriendInviteCallbackProxy>()
 	{
 		return USendFriendInviteCallbackProxy::StaticClass();

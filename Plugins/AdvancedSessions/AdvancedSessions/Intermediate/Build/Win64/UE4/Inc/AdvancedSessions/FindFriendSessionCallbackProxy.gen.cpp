@@ -224,7 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeFindFriendSessionCallbackProxy() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UFindFriendSessionCallbackProxy, 2175304236);
+	IMPLEMENT_CLASS(UFindFriendSessionCallbackProxy, 2237992051);
 	template<> ADVANCEDSESSIONS_API UClass* StaticClass<UFindFriendSessionCallbackProxy>()
 	{
 		return UFindFriendSessionCallbackProxy::StaticClass();

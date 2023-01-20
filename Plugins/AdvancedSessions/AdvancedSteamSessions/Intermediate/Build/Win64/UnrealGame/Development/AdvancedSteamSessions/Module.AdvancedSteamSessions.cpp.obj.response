@@ -1,7 +1,7 @@
-"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
+"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
 /I .
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
-/I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystem
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
+/I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystem\UHT
 /I ..\Plugins\Online\OnlineSubsystem
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
@@ -9,38 +9,40 @@
 /I Runtime\Json\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\CoreOnline
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\CoreOnline\UHT
 /I Runtime\CoreOnline\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\CoreUObject\UHT
 /I Runtime\CoreUObject\Public
 /I ..\Plugins\Online\OnlineBase
 /I ..\Plugins\Online\OnlineBase\Source\Public
-/I Runtime\SignalProcessing\Public
 /I Runtime\Sockets\Public
 /I Runtime\Net
 /I Runtime\Net\Common\Public
+/I Runtime\SignalProcessing\Public
+/I ThirdParty\Intel
 /I Runtime\Networking\Public
-/I ..\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemUtils
+/I ..\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemUtils\UHT
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\Engine
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\Engine\UHT
 /I ..\Shaders\Shared
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\NetCore
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\NetCore\UHT
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
 /I Runtime\ApplicationCore\Public
 /I Runtime\RHI\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\JsonUtilities
+/I Runtime\ImageCore\Public
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\JsonUtilities\UHT
 /I Runtime\JsonUtilities\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\SlateCore
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\SlateCore\UHT
 /I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\InputCore
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\InputCore\UHT
 /I Runtime\InputCore\Classes
 /I Runtime\InputCore\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\Slate
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\Slate\UHT
 /I Runtime\Slate\Public
 /I Runtime\ImageWrapper\Public
 /I ThirdParty
@@ -50,74 +52,78 @@
 /I Runtime\Analytics
 /I Runtime\Analytics\AnalyticsET\Public
 /I Runtime\Analytics\Analytics\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AssetRegistry
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AssetRegistry\UHT
 /I Runtime\AssetRegistry\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\EngineMessages
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\EngineMessages\UHT
 /I Runtime\EngineMessages\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\EngineSettings
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\EngineSettings\UHT
 /I Runtime\EngineSettings\Classes
 /I Runtime\EngineSettings\Public
 /I Runtime\SynthBenchmark\Public
 /I Runtime\Renderer\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\GameplayTags
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\GameplayTags\UHT
 /I Runtime\GameplayTags\Classes
 /I Runtime\GameplayTags\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\DeveloperSettings
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\DeveloperSettings\UHT
 /I Runtime\DeveloperSettings\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\PacketHandler
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\PacketHandler\UHT
 /I Runtime\PacketHandlers
 /I Runtime\PacketHandlers\PacketHandler\Classes
 /I Runtime\PacketHandlers\PacketHandler\Public
 /I Runtime\PacketHandlers\ReliabilityHandlerComponent\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioPlatformConfiguration
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioPlatformConfiguration\UHT
 /I Runtime\AudioPlatformConfiguration\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\MeshDescription
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\MeshDescription\UHT
 /I Runtime\MeshDescription\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\StaticMeshDescription
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\StaticMeshDescription\UHT
 /I Runtime\StaticMeshDescription\Public
 /I Runtime\SkeletalMeshDescription\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AnimationCore
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AnimationCore\UHT
 /I Runtime\AnimationCore\Public
 /I Runtime\PakFile\Public
 /I Runtime\RSA\Public
 /I Runtime\NetworkReplayStreaming
 /I Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\PhysicsCore
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\PhysicsCore\UHT
 /I Runtime\PhysicsCore\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\Chaos
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\Chaos\UHT
 /I Runtime\Experimental
 /I Runtime\Experimental\Chaos\Public
 /I Runtime\Experimental\ChaosCore\Public
-/I ThirdParty\Intel
 /I Runtime\Experimental\Voronoi\Public
 /I Runtime\GeometryCore\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioExtensions
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioExtensions\UHT
 /I Runtime\AudioExtensions\Public
 /I Runtime\AudioMixerCore\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioLinkCore
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioLinkCore\UHT
 /I Runtime\AudioLink
 /I Runtime\AudioLink\AudioLinkCore\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\ClothingSystemRuntimeInterface
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\ClothSysRuntimeIntrfc\UHT
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioMixer
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\IrisStub\UHT
+/I Runtime\Experimental\Iris
+/I Runtime\Experimental\Iris\Stub\Public
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\AudioMixer\UHT
 /I Runtime\AudioMixer\Classes
 /I Runtime\AudioMixer\Public
 /I Developer
 /I Developer\TargetPlatform\Public
 /I Developer\TextureFormat\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementFramework
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\MovieSceneCapture\UHT
+/I Runtime\MovieSceneCapture\Public
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementFramework\UHT
 /I Runtime\TypedElementFramework\Public
-/I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementRuntime
+/I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementRuntime\UHT
 /I Runtime\TypedElementRuntime\Public
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSteamSessions"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Source"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSteamSessions\UHT"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Source"
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I ThirdParty\Steamworks\Steamv151\sdk\public
-/I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemSteam
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source"
+/I "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I ThirdParty\Steamworks\Steamv153\sdk\public
+/I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemSteam\UHT
 /I ..\Plugins\Online\OnlineSubsystemSteam
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Classes
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Public
@@ -125,17 +131,16 @@
 /I ThirdParty\LibTiff\Source\Win64
 /I ThirdParty\LibTiff\Source
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
-/Yu"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
-/sourceDependencies "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.json"
+/FI"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
+/Yu"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Documents\Unreal Projects\VRExpPluginExp\Intermediate\Build\Win64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
+/sourceDependencies "D:\Documents\Unreal Projects\VRExpPluginExp\Plugins\AdvancedSessions\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi
@@ -151,6 +156,7 @@
 /source-charset:utf-8
 /execution-charset:utf-8
 /Ob2
+/fastfail
 /Ox
 /Ot
 /GF
