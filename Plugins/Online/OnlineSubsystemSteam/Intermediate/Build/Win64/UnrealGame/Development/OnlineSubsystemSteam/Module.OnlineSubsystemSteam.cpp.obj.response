@@ -135,10 +135,10 @@ D:\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\Unrea
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
 /external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
 /FI"D:\Git\Phase4\Intermediate\Build\Win64\PhaseFour\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
 /FI"D:\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Development\OnlineSubsystemSteam\Definitions.OnlineSubsystemSteam.h"
 /Yu"D:\Git\Phase4\Intermediate\Build\Win64\PhaseFour\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
