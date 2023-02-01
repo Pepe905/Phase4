@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-OnlineSubsystemSteam.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
-"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
-/OUT:"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\UnrealEditor-OnlineSubsystemSteam.lib"
+"F:\Downloads\Semester 3\Projekt\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"F:\Downloads\Semester 3\Projekt\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
+"F:\Downloads\Semester 3\Projekt\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Default.rc2.res"
+/OUT:"F:\Downloads\Semester 3\Projekt\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\UnrealEditor-OnlineSubsystemSteam.lib"
