@@ -1,6 +1,6 @@
-C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp
+E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp
 /I .
-/I C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Source\Private
+/I E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Source\Private
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -280,30 +280,29 @@ C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermed
 /I ..\Plugins\Runtime\Steam\SteamShared\Source
 /I ..\Plugins\Runtime\Steam\SteamShared\Source\SteamShared\Public
 /I ThirdParty\Steamworks\Steamv153\sdk\public
-/I C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystemSteam\UHT
-/I C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam
-/I C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Source
-/I C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Source\Classes
-/I C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Source\Public
+/I E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystemSteam\UHT
+/I E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam
+/I E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Source
+/I E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Source\Classes
+/I E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Source\Public
 /I ..\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UnrealEditor\Inc\OnlineSubsystemUtils\UHT
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes
 /I ..\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Public
-/external:W0
-/external:I ThirdParty\mimalloc\include
-/external:I ThirdParty\LibTiff\Source\Win64
-/external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
-/FI"C:\Users\Leander\Desktop\Git\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Definitions.OnlineSubsystemSteam.h"
-/Yu"C:\Users\Leander\Desktop\Git\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"C:\Users\Leander\Desktop\Git\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
-/sourceDependencies C:\Users\Leander\Desktop\Git\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.dep.json
+/I ThirdParty\mimalloc\include
+/I ThirdParty\LibTiff\Source\Win64
+/I ThirdParty\LibTiff\Source
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Definitions.OnlineSubsystemSteam.h"
+/Yu"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Intermediate\Build\Win64\PhaseFourEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.obj"
+/sourceDependencies E:\1_GamesAcademy\Projectarbeit\Phase4\Phase4\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealEditor\Development\OnlineSubsystemSteam\Module.OnlineSubsystemSteam.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
